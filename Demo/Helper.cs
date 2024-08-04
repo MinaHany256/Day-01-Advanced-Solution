@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Demo
 {
-    internal class Helper
+    internal class Helper<T> 
     {
+        #region Generic SWAP - Example 01
         #region Non - Generic
         //public static void SWAP(ref int X, ref int Y)
         //{
@@ -36,13 +37,29 @@ namespace Demo
 
 
         // Generic Type
-        public static void SWAP<T>(ref T X, ref T Y)
+        public static void SWAP(ref T X, ref T Y)
         {
             Console.WriteLine("====== SWAP =======");
             T Temp = X;
             X = Y;
             Y = Temp;
         }
+        #endregion
+
+        #region Generic Search - Example 02
+        public static int Search(T[] Arr, T Value)
+        {
+            if (Arr is not null && Value is not null)
+            {
+                for (int i = 0; i < Arr.Length; i++)
+                {
+                    if (Value.Equals(Arr[i]))
+                        return i;
+                }
+            }
+            return -1;
+        } 
+        #endregion
 
     }
 }

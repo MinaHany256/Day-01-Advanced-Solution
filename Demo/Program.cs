@@ -31,6 +31,13 @@
             /// Console.WriteLine($"P2 = {P2}"); 
             #endregion
 
+            #region Generic Search - Example 02
+            //int[] numbers = [4, 10, 5, 3, 11, 8, 1, 7];
+
+            //int index = Helper<int>.Search(numbers, 11);
+
+            //Console.WriteLine($"Position = {index}"); 
+            #endregion
 
         }
     }
