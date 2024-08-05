@@ -50,6 +50,24 @@
             //    Console.WriteLine("Not Euals"); 
             #endregion
 
+            #region Bubble Sort
+            //int[] numbers = [7, 2, 10, 9, 1, 8, 5, 3, 6, 4];
+            //Helper<int>.Sort(numbers);
+            //foreach (int i in numbers) 
+            //    Console.WriteLine(i);
+
+            //Employee[] employees =
+            //{
+            //    new Employee (10,name:"Ahmed",salary:6000),
+            //    new Employee (20,name:"Omnia",salary:2000),
+            //    new Employee (40,name:"Omars",salary:10000),
+            //    new Employee (50,name:"Nadia",salary:4000),
+            //};
+
+            //Helper<Employee>.Sort(employees);
+            //foreach (Employee employee in employees) 
+            //    Console.WriteLine(employee); 
+            #endregion
 
         }
     }
