@@ -39,6 +39,18 @@
             //Console.WriteLine($"Position = {index}"); 
             #endregion
 
+            #region Equality
+            //Employee employee01 = new Employee(id: 10, name: "Ahmed", salary: 6_000);
+            //Employee employee02 = new Employee(id:10, name: "Ahmed", salary: 6_000);
+
+            ////if(employee01 == employee02)
+            //if (employee01.Equals(employee02))
+            //    Console.WriteLine("Equals");
+            //else
+            //    Console.WriteLine("Not Euals"); 
+            #endregion
+
+
         }
     }
 }
