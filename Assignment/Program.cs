@@ -27,6 +27,20 @@ namespace Assignment
         //} 
         #endregion
 
+        #region 4. You are given a list of integers. Your task is to find and return a new list containing only the even numbers from the given list.
+        //public static List<int> ReturnEvenOnly(List<int> list)
+        //{
+        //    List<int> newList = new List<int>();
+
+        //    for (int i = 0; i < list.Count; i++)
+        //        if (list[i] % 2 == 0)
+        //            newList.Add(list[i]);
+
+        //    return newList;
+        //} 
+        #endregion
+
+
 
         static void Main(string[] args)
         {
@@ -61,6 +75,17 @@ namespace Assignment
             //ArrayList Result = ReverseArrayList(Arr);
 
             //foreach (int i in Result)
+            //    Console.WriteLine(i);
+
+            #endregion
+
+            #region 4. You are given a list of integers. Your task is to find and return a new list containing only the even numbers from the given list.
+
+            //List<int> list = new List<int>() { 1, 2, 3, 4, 5, 6 };
+
+            //List<int> Newlist = ReturnEvenOnly(list);
+
+            //foreach (int i in Newlist)
             //    Console.WriteLine(i);
 
             #endregion
